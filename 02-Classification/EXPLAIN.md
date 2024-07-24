@@ -26,7 +26,7 @@ This expression is broken down as follows:
 ### Second Line of the Equation
 
 $$
-\ell = \sum_{j=1}^K \int_{\mathcal{R}} \left\{ \sum_{c=1}^K L_{cj} \Pr_{\Omega|\mathbf{X}}(\omega_c|\mathbf{x}) \right\} p_{\mathbf{X}}(\mathbf{x}) d\mathbf{x}
+\ell = \sum_{j=1}^K \int_{\mathcal{R}} \left( \sum_{c=1}^K L_{cj} \Pr_{\Omega|\mathbf{X}}(\omega_c|\mathbf{x}) \right) p_{\mathbf{X}}(\mathbf{x}) d\mathbf{x}
 $$
 
 This line rephrases the first line using conditional probabilities:
