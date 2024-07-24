@@ -1,7 +1,3 @@
-The equation in the image appears to be related to the expected loss or risk in a classification problem. Let's break it down step by step:
-
-### Equation Breakdown
-
 $$
 \ell = \mathbb{E}[L(\Omega, d(\mathbf{X}))]
 $$
