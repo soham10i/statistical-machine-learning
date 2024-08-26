@@ -3,6 +3,7 @@ $$
 $$
 
 This denotes the expected loss, where:
+
 - $\ell$ is the expected loss.
 - $L(\Omega, d(\mathbf{X}))$ is the loss function given the true state $\Omega$ and the decision rule $d(\mathbf{X})$.
 
@@ -13,6 +14,7 @@ $$
 $$
 
 This expression is broken down as follows:
+
 - The summation $\sum_{j=1}^K$ goes over all regions $\mathcal{R}_j$, where $j$ is the index of the region.
 - The integral $\int_{\mathcal{R}_j}$ is taken over each region $\mathcal{R}_j$.
 - The inner summation $\sum_{c=1}^K$ goes over all classes $\omega_c$, where $c$ is the index of the class.
@@ -26,6 +28,7 @@ $$
 $$
 
 This line rephrases the first line using conditional probabilities:
+
 - $\mathcal{R}$ is the entire feature space.
 - $\Pr_{\Omega|\mathbf{X}}(\omega_c|\mathbf{x})$ is the conditional probability of $\omega_c$ given $\mathbf{x}$.
 - $p_{\mathbf{X}}(\mathbf{x})$ is the marginal probability density function of the feature vector $\mathbf{x}$.
@@ -33,6 +36,7 @@ This line rephrases the first line using conditional probabilities:
 ### Interpretation
 
 The equation represents the expected loss in terms of the joint and conditional probabilities:
+
 1. **First Line**:
    - For each region $\mathcal{R}_j$, it integrates the loss weighted by the joint probability of the class and the feature vector.
 2. **Second Line**:
